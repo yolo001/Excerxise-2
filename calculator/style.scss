@@ -1,0 +1,64 @@
+
+#calculator {
+    width: 30%;
+    margin: 10px auto;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+.screen {
+    height: 70px;
+    width: 95%;
+    color: #101010;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: right;
+    overflow: hidden;
+    padding: 5px;
+}
+
+
+#keypad li {
+    list-style-type: none;
+    width: 25%;
+    height: 70px;
+    background: #E0E0E0;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #000000;
+
+}
+
+#keypad .extend {
+    width: 50%;
+
+}
+
+#keypad .symbol {
+    background: #2bfb1f;
+    color: white;
+    font-size: 2rem;
+    border-right: none;
+}
+
+#keypad .symbolTop {
+    background: #B8B8B8;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.active {
+
+    -moz-box-shadow: inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow: inset 0 0 5px #000000;
+
+}
